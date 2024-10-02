@@ -26,7 +26,6 @@ export class AppComponent {
   }
 
   getControls() {
-    debugger;
     return this.reactiveForm.controls;
   }
 
