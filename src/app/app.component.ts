@@ -49,9 +49,7 @@ export class AppComponent {
   title = 'reactiveForm';
   reactiveForm!: FormGroup;
   submitted: boolean = false;
-
   constructor(private formBuilder: FormBuilder) {}
-
   ngOnInit() {
     this.reactiveForm = this.formBuilder.group({
       id: [''],
@@ -61,7 +59,6 @@ export class AppComponent {
     });
   }
 
-  // Getter for easy access to form controls in the template
   get f() {
     return this.reactiveForm.controls;
   }
