@@ -44,8 +44,6 @@ export class AppComponent {
   //     }
   //   }
 
-  //   onReset() {}
-  // }
   title = 'reactiveForm';
   reactiveForm!: FormGroup;
   submitted: boolean = false;
@@ -68,7 +66,6 @@ export class AppComponent {
     if (this.reactiveForm.invalid) {
       return;
     }
-    // Handle form submission (e.g., save data)
   }
 
   onReset(): void {
