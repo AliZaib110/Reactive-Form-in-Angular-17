@@ -16,34 +16,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  //   title = 'reactiveForm';
-  //   reactiveForm!: FormGroup;
-  //   submitted: boolean = false;
-
-  //   constructor(private formBuilder: FormBuilder) {}
-
-  //   ngOnInit() {
-  //     this.reactiveForm = this.formBuilder.group({
-  //       id: [''],
-  //       name: ['', Validators.required],
-  //       email: ['', Validators.required, Validators.email],
-  //       password: ['', Validators.required, Validators.minLength(3)],
-  //     });
-  //   }
-
-  //   f() {
-  //     console.log(this.reactiveForm.controls, 'controls');
-
-  //     return this.reactiveForm.controls;
-  //   }
-
-  //   onSubmit(): void {
-  //     this.submitted = true;
-  //     if (this.reactiveForm.invalid) {
-  //       return;
-  //     }
-  //   }
-
   title = 'reactiveForm';
   reactiveForm!: FormGroup;
   submitted: boolean = false;
